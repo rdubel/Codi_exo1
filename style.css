@@ -1,0 +1,61 @@
+header {
+
+}
+
+
+img {
+    border-radius: 5px;
+    margin: 2em;
+}
+
+nav {
+
+    float: right;
+    height: 5em;
+    margin-right: 3em;
+    margin-top: 6em;
+    width: 70%;
+
+}
+
+aside {
+
+    float: left;
+    height: 25em;
+    padding: 16px;
+    width: 26%;
+}
+
+main {
+
+    height: 27em;
+}
+
+section {
+
+    float: left;
+    height: 7em;
+    padding: 1em;
+    width: 68%;
+}
+
+footer {
+
+    padding: 1em
+
+}
+
+header, nav, aside, main, section, footer {
+    display: block;
+
+}
+
+.line-separator{
+
+height:1px;
+
+background:#717171;
+
+border-bottom:1px solid #313030;
+
+}
