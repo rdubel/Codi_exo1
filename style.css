@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(254, 139, 5, 0.81)
+}
+
 header {
 
 }
@@ -18,25 +22,41 @@ nav {
 
 }
 
-aside {
+a:link {
+    color: rgb(105, 49, 154);
+}
 
+a:visited {
+    color: rgb(233, 22, 22)
+}
+
+aside {
     float: left;
-    height: 25em;
+    height: 54em;
+    margin-top: 6em;
     padding: 16px;
-    width: 26%;
+    width: 10%;
 }
 
 main {
 
-    height: 27em;
+    height: 60em;
+}
+
+h1 {
+    margin-left: 11em;
 }
 
 section {
 
-    float: left;
+    float: right;
     height: 7em;
     padding: 1em;
     width: 68%;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 footer {
@@ -50,12 +70,6 @@ header, nav, aside, main, section, footer {
 
 }
 
-.line-separator{
-
-height:1px;
-
-background:#717171;
-
-border-bottom:1px solid #313030;
-
+h1, h2 {
+    text-align: center;
 }
